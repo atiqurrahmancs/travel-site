@@ -107,6 +107,110 @@ body {
    color: white;
    font-size: 1.5em;
 }
+.destination-content{
+   text-align: center;
+}
+
+.destination-content h1{
+   font-size: 3em;
+}
+.destination-content p{
+   font-size: 1.5em;
+   color: rgb(103, 104, 104);
+}
+.destination-photo {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* 12-column grid for flexible control */
+  grid-template-rows: auto;
+  gap: 30px;
+  margin: 60px;
+}
+
+.des-item-1 {
+  grid-column: span 6; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.des-item-2 {
+  grid-column: span 6; /* 50% */
+  background-size: cover;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.des-item-3 {
+  grid-column: span 3; /* 25% */
+background-repeat: no-repeat;
+background-size: cover;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.des-item-4 {
+  grid-column: span 6; /* 50% */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.des-item-5 {
+  grid-column: span 3; /* 25% */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.des-item-6 {
+  grid-column: span 5; /* ~40% */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.des-item-7 {
+  grid-column: span 7; /* ~60% */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+/* Optional: assign background images for demo */
+.des-item-1 { background-image: url('./images/Rectangle\ 5.png'); }
+.des-item-2 { background-image: url('./images/Rectangle\ 6.png'); }
+.des-item-3 { background-image: url('./images/Rectangle\ 7.png'); }
+.des-item-4 { background-image: url('./images/Rectangle\ 8.png'); }
+.des-item-5 { background-image: url('./images/Rectangle\ 9.png'); }
+.des-item-6 { background-image: url('./images/Rectangle\ 10.png'); }
+.des-item-7 { background-image: url('./images/Rectangle\ 11.png'); }
 
 @media screen and (max-width: 768px) {
   .head-banner{
@@ -170,6 +274,23 @@ body {
   .popular-content-pic img {
     width: 100%;
     padding: 0;
+  }
+
+  .destination-content h1{
+   font-size: 2em;
+  }
+  .destination-content p{
+   font-size: 1em;
+  }
+  .destination-photo{
+   grid-template-columns: 1fr;
+   margin: 10px;
+   gap: 5px;
+  }
+  .destination-photo h1{
+   height: 200px;
+   width: 100%;
+   grid-column: span 1;
   }
 
 }
