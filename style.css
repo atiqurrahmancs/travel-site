@@ -212,6 +212,56 @@ background-size: cover;
 .des-item-6 { background-image: url('./images/Rectangle\ 10.png'); }
 .des-item-7 { background-image: url('./images/Rectangle\ 11.png'); }
 
+.why-choose-us{
+  margin: 60px;
+}
+
+.why-choose-us h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.why-p{
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(54, 54, 54);
+}
+
+
+.choose-div{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 40px;
+  justify-content: center;
+  padding: 40px 10px;
+}
+
+.choose-item img {
+  width: 100px;
+}
+
+.item-1{
+  background-color: #f0eaea;
+  border-radius: 10px;
+  padding: 30px;
+}
+.item-2{
+  background-color: #d1e0ea;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.item-3-container{
+  display: grid;
+  grid-template-columns: 45%;
+  justify-content: center;
+}
+.item-3{
+  background-color: #eccece;
+  border-radius: 10px;
+  padding: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .head-banner{
     margin: 20px;
@@ -292,5 +342,34 @@ background-size: cover;
    width: 100%;
    grid-column: span 1;
   }
+
+  .why-choose-us, .item-3-container{
+  margin: 5px;
+  }
+  .choose-div, .item-3-container{
+    grid-template-columns: none;
+  }
+
+  .why-choose-us h1{
+  font-size: 1.5em;
+}
+
+.why-p{
+  font-size: 0.8em;
+}
+
+.choose-div{
+  padding: 20px 5px;
+  gap: 25px;
+}
+
+.choose-item img {
+  width: 50px;
+}
+
+.choose-item{
+  padding: 20px;
+}
+
 
 }
