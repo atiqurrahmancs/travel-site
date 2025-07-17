@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
 body {
    font-family: "Mulish", sans-serif;
+   margin: 0;
 }
 
 
@@ -329,6 +331,32 @@ background-size: cover;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   text-align: center;
 }
+
+footer{
+  background-color: #eff0f2;
+  padding: 80px 300px;
+}
+
+footer .logo{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.orange-text{
+  color: #FF5400;
+}
+.social-logo{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+footer p, h4{
+  text-align: center;
+  margin: 30px 0;
+}
 @media screen and (max-width: 768px) {
   .head-banner{
     margin: 20px;
@@ -460,6 +488,11 @@ background-size: cover;
   padding: 10px 20px;
   color: white;
   margin-bottom: 30px;
+}
+
+footer{
+  background-color: #eff0f2;
+  padding: 30px 20px;
 }
 
 }
