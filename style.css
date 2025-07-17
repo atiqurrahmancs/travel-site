@@ -262,6 +262,73 @@ background-size: cover;
   padding: 30px;
 }
 
+.news-grid{
+  display: grid;
+  grid-template-columns: 30% 60%;
+  justify-content: center;
+  gap: 20px;
+  margin: 60px;
+}
+
+.newsletter{
+  padding: 50px;
+  border: 2px solid #FF5400;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.newsletter p{
+  margin-bottom: 30px;
+  color: rgb(84, 84, 84);
+}
+.newsletter input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(242, 240, 240);
+  border: none;
+  color: rgb(242, 240, 240);
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0 20px 0 20px;
+}
+
+.newsletter button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #FF5400;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.news-photo{
+  background-image: url(./Images/Rectangle\ 8\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+.news-photo-back{
+   background-color: #FF5400;
+  border-radius: 10px;
+  padding: 10px 50px;
+  color: white;
+  width: 200px;
+  position: absolute;
+  bottom: 70px;
+  right: 25px;
+  transform: rotate(-25deg);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
 @media screen and (max-width: 768px) {
   .head-banner{
     margin: 20px;
@@ -371,5 +438,28 @@ background-size: cover;
   padding: 20px;
 }
 
+.news-grid{
+  display: grid;
+  grid-template-columns: none;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px;
+}
+
+.newsletter{
+  padding: 20px;
+  border: 2px solid #FF5400;
+  margin-top: 20px;
+}
+
+.newsletter input{
+  width: 88%;
+}
+
+.news-photo-back{
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 30px;
+}
 
 }
