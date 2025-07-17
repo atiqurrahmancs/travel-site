@@ -283,7 +283,9 @@ background-size: cover;
   border-radius: 10px;
   padding: 30px;
 }
-
+.extra{
+  background-color: rgb(191, 200, 252);
+}
 .news-grid{
   display: grid;
   grid-template-columns: 30% 60%;
